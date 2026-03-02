@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday</title>
+<link rel="stylesheet" href="b2style.css">
+</head>
+<body>
+
+<div class="confetti"></div>
+
+<div class="main-card">
+    <h1>Happy Birthday! 🎂 ✨ ❤️</h1>
+    <h3 class="subtitle">To My Cute Sister!</h3>
+
+    <div class="flip-container" onclick="flipCard()">
+        <div class="flip-card" id="flipCard">
+
+            <!-- FRONT -->
+            <div class="front">
+                <p>Tap to open your card</p>
+                <div class="gift-icon">🎁</div>
+            </div>
+
+            <!-- BACK -->
+            <div class="back">
+                <p>
+                    Just wanted to remind you—you're my favorite person.
+                    My days are better, smiles are wider, and life is sweeter
+                    because of you.
+                </p>
+
+                <p class="highlight">
+                    I hope your birthday is full of love, magic,
+                    and everything that makes you smile 💖
+                </p>
+
+                <div class="big-heart">❤️</div>
+            </div>
+
+        </div>
+    </div>
+
+    <p class="message">
+        May every wish you make today come true.
+        You deserve the world, and I’ll always be here
+        to remind you of that.
+    </p>
+
+    <p class="closing">
+        Let’s always stay like this... together, forever 🤝
+    </p>
+
+</div>
+
+<script>
+function flipCard() {
+    document.getElementById("flipCard").classList.toggle("flipped");
+}
+</script>
+
+</body>
+</html>
